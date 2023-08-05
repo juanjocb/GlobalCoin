@@ -2,9 +2,10 @@
 
 ------------------------------------------------------*-------------------------------------------------------------
 
-1- git clone https://github.com/juanjocb/GlobalCoin
-2- npm install
-3- node index
+INICIAR PROYECTO:
+-  git clone https://github.com/juanjocb/GlobalCoin
+-  npm install
+-  node index
 
 ------------------------------------------------------*-------------------------------------------------------------
 
