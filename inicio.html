@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>♠ GlobalCoin ♠</title>
+    <link rel="shortcut icon" href="img/EEUU-banco-central-moneda-digital-bitcoin.jpg">
+    <link rel="stylesheet" href="./styles/inicio.css">
+</head>
+    <body> 
+        <header>
+            <h1>♠ GlobalCoin ♠</h1>
+        </header>
+        <div id="mensaje">
+            <p>¡¡Bienvenido a nuestra página ♠ GlobalCoin ♠! Aquí podrás realizar conversiones tanto de monedas
+                nacionales como de criptomonedas de forma rápida y sencilla, además de comprar y vender la moneda. <br>
+
+                <br>
+                En la sección "Cambio de Moneda Nacional", podrás seleccionar la moneda de origen y la moneda de cambio
+                para realizar la conversión. Simplemente ingresa la cantidad que deseas convertir y presiona el botón
+                "Calcular". Obtendrás el resultado de la conversión de manera instantánea. <br>
+
+
+                <br>
+                Nuestra página está diseñada con una interfaz intuitiva y fácil de usar. Hemos cuidado cada detalle para
+                brindarte una experiencia agradable. Además, hemos implementado estilos profesionales y una disposición
+                uniforme para garantizar la legibilidad y el confort visual. <br>
+                <br>
+                Para poder enviarle la cotización de la venta o compra de modenas <b>Debe Registrarse</b>
+
+                <br>
+
+                <br>
+                ¡No pierdas más tiempo buscando herramientas complicadas para cambiar tus monedas! Utiliza nuestra
+                página de cambio de moneda y obtén resultados precisos al instante. Esperamos que encuentres nuestra
+                plataforma útil y confiable . <br>
+        </div>
+        <main>
+            <section>
+                <h2>Cambio de Moneda</h2>
+                <form id="nacional-form"> <!-- Agrega más opciones de monedas nacionales aquí  las que se les plasca -->
+                    <label for="nacional-currency-from">Moneda de origen:</label>
+                    <select id="monedasOrigen">
+                        <option value="USD" selected>Dólar estadounidense (USD)</option>
+                        <option value="EUR">Euro (EUR)</option>
+                        <option value="JPY">Yen japonés (JPY)</option>
+                        <option value="GBP">Libra esterlina (GBP)</option>
+                        <option value="AUD">Dólar australiano (AUD)</option>
+                        <option value="CAD">Dólar canadiense (CAD)</option>
+                        <option value="CHF">Franco suizo (CHF)</option>
+                        <option value="SEK">Corona sueca (SEK)</option>
+                        <option value="BRL">Real brasileño (BRL)</option>
+                        <option value="RUB">Rublo ruso (RUB)</option>
+                        <option value="MXN">Peso mexicano (MXN)</option>
+                        <option value="INR">Rupia india (INR)</option>
+                        <option value="SGD">Dólar de Singapur (SGD)</option>
+                        <option value="TRY">Lira turca (TRY)</option>
+                        <option value="HKD">Dólar de Hong Kong (HKD)</option>
+                        <option value="NOK">Corona noruega (NOK)</option>
+                        <option value="KRW">Won surcoreano (KRW)</option>
+                        <option value="PHP">Peso filipino (PHP)</option>
+                        <option value="THB">Baht tailandés (THB)</option>
+                        <option value="TWD">Dólar de Taiwán (TWD)</option>
+                        <option value="COP">Peso colombiano (COP)</option>
+                        <option value="ZAR">Rand sudafricano (ZAR)</option>
+                        <option value="ILS">Shekel israelí (ILS)</option>
+                        <option value="JMD">Dólar jamaicano (JMD)</option>
+                        <option value="IDR">Rupia indonesia (IDR)</option>
+                        <option value="BBD">Dólar de Barbados (BBD)</option>
+                        <option value="KWD">Dinar kuwaití (KWD)</option>
+                        <option value="KYD">Dólar de las Islas Caimán (KYD)</option>
+                        <option value="GTQ">Quetzal guatemalteco (GTQ)</option>
+                        <option value="HUF">Florín húngaro (HUF)</option>
+                        <option value="SBD">Dólar de las Islas Salomón (SBD)</option>
+                        <option value="ETB">Birr etíope (ETB)</option>
+                        <option value="RSD">Dinar serbio (RSD)</option>
+                        <option value="RON">Leu rumano (RON)</option>
+                        <option value="NIO">Córdoba nicaragüense (NIO)</option>
+                        <option value="HRK">Kuna croata (HRK)</option>
+                        <option value="MDL">Leu moldavo (MDL)</option>
+                        <option value="BHD">Dinar bahreiní (BHD)</option>
+                        <option value="PEN">Sol peruano (PEN)</option>
+                        <!-- Agrega más opciones de monedas nacionales aquí las que se les plasca -->
+                    </select>
+                    <label for="nacional-amount">Cantidad:</label>
+                    <input id="cantACalcular" type="number" placeholder="" value="1">
+                    <label for="nacional-currency-to">Moneda de Cambio:</label>
+                    <select id="monedasCambio">
+                        <option value="USD">Dólar estadounidense (USD)</option>
+                        <option value="EUR">Euro (EUR)</option>
+                        <option value="JPY">Yen japonés (JPY)</option>
+                        <option value="GBP">Libra esterlina (GBP)</option>
+                        <option value="AUD">Dólar australiano (AUD)</option>
+                        <option value="CAD">Dólar canadiense (CAD)</option>
+                        <option value="CHF">Franco suizo (CHF)</option>
+                        <option value="SEK">Corona sueca (SEK)</option>
+                        <option value="BRL">Real brasileño (BRL)</option>
+                        <option value="RUB">Rublo ruso (RUB)</option>
+                        <option value="MXN">Peso mexicano (MXN)</option>
+                        <option value="INR">Rupia india (INR)</option>
+                        <option value="SGD">Dólar de Singapur (SGD)</option>
+                        <option value="TRY">Lira turca (TRY)</option>
+                        <option value="HKD">Dólar de Hong Kong (HKD)</option>
+                        <option value="NOK">Corona noruega (NOK)</option>
+                        <option value="KRW">Won surcoreano (KRW)</option>
+                        <option value="PHP">Peso filipino (PHP)</option>
+                        <option value="THB">Baht tailandés (THB)</option>
+                        <option value="TWD">Dólar de Taiwán (TWD)</option>
+                        <option value="COP" selected>Peso colombiano (COP)</option>
+                        <option value="ZAR">Rand sudafricano (ZAR)</option>
+                        <option value="ILS">Shekel israelí (ILS)</option>
+                        <option value="JMD">Dólar jamaicano (JMD)</option>
+                        <option value="IDR">Rupia indonesia (IDR)</option>
+                        <option value="BBD">Dólar de Barbados (BBD)</option>
+                        <option value="KWD">Dinar kuwaití (KWD)</option>
+                        <option value="KYD">Dólar de las Islas Caimán (KYD)</option>
+                        <option value="GTQ">Quetzal guatemalteco (GTQ)</option>
+                        <option value="HUF">Florín húngaro (HUF)</option>
+                        <option value="SBD">Dólar de las Islas Salomón (SBD)</option>
+                        <option value="ETB">Birr etíope (ETB)</option>
+                        <option value="RSD">Dinar serbio (RSD)</option>
+                        <option value="RON">Leu rumano (RON)</option>
+                        <option value="NIO">Córdoba nicaragüense (NIO)</option>
+                        <option value="HRK">Kuna croata (HRK)</option>
+                        <option value="MDL">Leu moldavo (MDL)</option>
+                        <option value="BHD">Dinar bahreiní (BHD)</option>
+                        <option value="PEN">Sol peruano (PEN)</option>
+                        <!-- Agrega más opciones de monedas nacionales aquí   las que se les plasca -->
+                    </select>
+                    </select>
+                </form>
+                <div class=" calcular-respuesta">
+                    <button id="btnCalcular" type="submit">Calcular</button> 
+                    <input id="cantCalculada" type="number" placeholder="0" readonly>
+
+                    <button class="btn" id="btnCambiarModena">
+                        <img src="img/png-transparent-television-kanal-9-logo-reload-television-angle-image-file-formats-removebg-preview.png"
+                            width="35px">
+                    </button>
+                </div>
+                <section class="ven-cm">
+                    <div class="button-container">
+                        <input type="email" id="celular" name="celular" placeholder="Ingrese su Correo" required>
+                        <input type="text" id="nombre" name="nombre" placeholder="Ingrese su Nombre" required>
+                        <button id="buy-button">Comprar</button>
+                        <button id="venta" class="sell-button">Vender</button>
+                    </div>
+
+                </section>
+                <!-- sale el resultado de la moneda -->
+                </select>
+
+                <div id="nacional-result"></div>
+            </section>
+
+
+        </main>
+
+        <div class="mensaje-final">
+
+            <br>
+            ¡Gracias por visitarnos y que tengas una excelente experiencia de cambio de moneda!</p>
+        </div>
+
+        <footer>
+            <p>© 2023 ♠ GlobalCoin ♠. Todos los derechos reservados ADSO 2560321-2.</p>
+        </footer>
+        <script src="scripts/script.js"></script>
+        <script src="scripts/enviarCorreo.js"></script>
+    </body>
+
+</html>
