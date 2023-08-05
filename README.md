@@ -2,9 +2,9 @@
 
 ------------------------------------------------------*-------------------------------------------------------------
 
-git clone https://github.com/juanjocb/GlobalCoin
-npm install
-node index
+1- git clone https://github.com/juanjocb/GlobalCoin
+2- npm install
+3- node index
 
 ------------------------------------------------------*-------------------------------------------------------------
 
